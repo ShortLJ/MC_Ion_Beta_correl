@@ -3,6 +3,7 @@
 MC tool for ion-beta correlation
 
 ## files to modify
+
 ###Global.h
 parameters of beam, stopper size, decay information, etc.
 
