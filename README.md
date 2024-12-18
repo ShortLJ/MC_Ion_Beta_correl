@@ -14,3 +14,6 @@ Also you can check the effect of beam-down-time using this.
 ### RunMC_Analysis.sh
 Ion-beta correlating takes quite long time. So I prefer running it with parallelism "&". 
 Set "nparallel" variable to a proper number for your computer.
+
+## How to run
+bash RunMC_Analysis.sh
