@@ -1,0 +1,7 @@
+*.root
+*.d
+*.so
+*.pcm
+
+*dictContent.h
+*dictUmbrella.h
