@@ -20,7 +20,7 @@ ipart=-1
 root -b -q Analysis_correl.C+\(${npart},${ipart}\)
 for ((ipart=0 ; ipart < npart ; ipart++))
 do
-	root -b -q Analysis_correl.C+\(${npart},${ipart}\) &
+	root -l -b -q Analysis_correl.C+\(${npart},${ipart}\) &
 	sleep 0.05
 done
 wait
